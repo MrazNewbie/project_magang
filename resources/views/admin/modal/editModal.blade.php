@@ -34,6 +34,8 @@
                                 </option>
                                 <option value="paper" {{ $data->type === 'paper' ? 'selected' : '' }}>Paper
                                 </option>
+                                <option value="dus" {{ $data->type === 'dus' ? 'selected' : '' }}>Dus/Box
+                                </option>
                             </select>
                         </div>
                     </div>

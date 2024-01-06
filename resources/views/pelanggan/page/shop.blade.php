@@ -97,6 +97,36 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Dus/Box
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="accordion-body p-0">
+                                        <div class="d-flex flex-column gap-4">
+                                            <div class="d-flex flex-row gap-3">
+                                                <input type="checkbox" name="kategory" class="kategory" value="besar">
+                                                <span>Besar</span>
+                                            </div>
+                                            <div class="d-flex flex-row gap-3">
+                                                <input type="checkbox" name="kategory" class="kategory" value="sedang">
+                                                <span>Sedang</span>
+                                            </div>
+                                            <div class="d-flex flex-row gap-3">
+                                                <input type="checkbox" name="kategory" class="kategory" value="kecil">
+                                                <span>Kecil</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

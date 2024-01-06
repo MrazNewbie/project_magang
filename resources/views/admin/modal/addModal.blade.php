@@ -30,6 +30,7 @@
                                 <option value="pouch">Standing Pouch</option>
                                 <option value="kalender">Kalender</option>
                                 <option value="paper">Paper Bag</option>
+                                <option value="dus">Dus/Box</option>
                             </select>
                         </div>
                     </div>
