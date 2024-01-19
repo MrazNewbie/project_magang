@@ -1,11 +1,25 @@
+<style>
+    .sosmed a {
+        color: black;
+        /* Mengubah warna tautan menjadi hitam */
+        text-decoration: none;
+        /* Menghilangkan garis bawah pada tautan */
+    }
+
+    .sosmed a:hover {
+        color: grey;
+        /* Mengubah warna tautan saat dihover menjadi abu-abu (opsional) */
+    }
+</style>
+
 <div class="d-flex justify-content-between gap-5 pt-4 mt-5">
     <div class="title-left w-25">
         <div class="header-title fs-4 mb-2 font-weight-bolder">
             Noorani Jaya
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae optio a illo
-            accusantium deserunt officiis distinctio suscipit ut eveniet, deleniti non aut eaque, ipsum
-            quaerat, natus nisi asperiores amet.</p>
+        <p>CV. Noorani Jaya merupakan perusahaan yang berdedikasi dalam menyediakan solusi percetakan kemasan produk
+            berkualitas tinggi. Dengan pengalaman lebih dari 10 tahun di industri, kami telah menjadi mitra terpercaya
+            bagi berbagai merek terkemuka dalam berbagai sektor industri.</p>
     </div>
     <div class="title-middle w-25">
         <div class="header-title fs-4 mb-2 font-weight-bolder">
@@ -14,15 +28,9 @@
         <ul class="list-unstyled">
             <li>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dignissimos quasi
-                    nobis autem explicabo! Voluptas!
+                    CV. Noorani Jaya menyediakan beragam produk kemasan custom, dari standing pouch, box/dus kemasan,
+                    paper bowl, paper bag, dll. Jaminan produk kualitas terbaik, untuk pengiriman seluruh Indonesia.
                 </p>
-            </li>
-            <li>
-                <p>091231231232</p>
-            </li>
-            <li>
-                p2312321312313
             </li>
         </ul>
     </div>
@@ -31,10 +39,14 @@
             Sosial Media
         </div>
         <div class="sosmed d-flex gap-3">
-            <i class="fa-brands fa-instagram fa-2x"></i>
-            <i class="fa-brands fa-square-facebook fa-2x"></i>
-            <i class="fa-brands fa-whatsapp fa-2x"></i>
-            <i class="fa-brands fa-linkedin fa-2x"></i>
+            <a href="https://www.instagram.com/noorani_jaya_kemasan?igsh=czg5d2FiMXJobGhs"
+                class="fa-brands fa-instagram fa-2x" target="blank"></a>
+            <a href="https://www.facebook.com/standingpouchbandung" class="fa-brands fa-square-facebook fa-2x"
+                target="blank"></a>
+            <a href="https://www.tiktok.com/@noorani_jaya_kemasan?_t=8heQwOBEVmc&_r=1" class="fa-brands fa-tiktok fa-2x"
+                target="blank"></a>
+            <a href="https://api.whatsapp.com/send?phone=6281291042159" class="fa-brands fa-whatsapp fa-2x"
+                target="blank"></a>
         </div>
     </div>
 </div>
